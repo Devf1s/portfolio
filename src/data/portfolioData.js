@@ -1,14 +1,14 @@
 import { 
-	hoobank, youtube_clone, meta, nft_crypter, nft_peeps, boosted 
+	hoobank, youtube_clone, meta, nft_crypter, online_store, boosted 
 } from '../img/portfolio';
 
 export default [
 	{
-		id: 'hoobank',
-		link: 'https://devf1s.github.io/hoobank/',
-		image: hoobank,
-		title: 'HooBank',
-		badges: ['React', 'Vite', 'Tailwind'],
+		id: 'online-store',
+		link: 'https://devf1s.github.io/react-online-store/',
+		image: online_store,
+		title: 'Online Store',
+		badges: ['React', 'Redux', 'PostgreSQL'],
 	},
 	{
 		id: 'youtube-clone',
@@ -16,6 +16,13 @@ export default [
 		image: youtube_clone,
 		title: 'Youtube Clone',
 		badges: ['React', 'Vite', 'RapidAPI'],
+	},
+	{
+		id: 'hoobank',
+		link: 'https://devf1s.github.io/hoobank/',
+		image: hoobank,
+		title: 'HooBank',
+		badges: ['React', 'Vite', 'Tailwind'],
 	},
 	{
 		id: 'meta',
@@ -29,13 +36,6 @@ export default [
 		link: 'https://devf1s.github.io/NFT-Crypter/',
 		image: nft_crypter,
 		title: 'NFT Crypter',
-		badges: ['HTML', 'SCSS', 'JavaScript'],
-	},
-	{
-		id: 'nft-peeps',
-		link: 'https://devf1s.github.io/NFT-Peeps/',
-		image: nft_peeps,
-		title: 'NFT Peeps',
 		badges: ['HTML', 'SCSS', 'JavaScript'],
 	},
 	{
